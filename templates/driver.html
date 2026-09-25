@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block body %}<section class="card center"><div class="eyebrow">YOU'RE REGISTERED</div><h1>{{d.display_name}}</h1><div class="big">QUEUE #{{position}}</div><p>{{cfg.track_name}} · {{cfg.car_name}}</p><p>Personal best <strong>{{pb|lap}}</strong></p><p>Wait for Race Control to call you.</p></section>{% endblock %}
